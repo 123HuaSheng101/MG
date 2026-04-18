@@ -1,10 +1,5 @@
 {
 	"RemapUnityFiles": 
 	{
-		"Module.NodeGraphAssistant.cpp.obj": [
-			"PerModuleInline.gen.cpp.obj",
-			"NGAInputProcessor.cpp.obj",
-			"NodeGraphAssistantModule.cpp.obj"
-		]
 	}
 }

@@ -38,9 +38,11 @@
 /NOIMPLIB
 /NOEXP
 /NATVIS:"../Intermediate/Build/Win64/x64/UnrealEditor/Development/RenderCore/RenderCore.natvis"
-"E:/WorkSpace/ProjectTemplate/Intermediate/Build/Win64/x64/ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
-"E:/WorkSpace/ProjectTemplate/Plugins/NodeGraphAssistant/Intermediate/Build/Win64/x64/UnrealEditor/Development/NodeGraphAssistant/Module.NodeGraphAssistant.cpp.obj"
-"E:/WorkSpace/ProjectTemplate/Plugins/NodeGraphAssistant/Intermediate/Build/Win64/x64/UnrealEditor/Development/NodeGraphAssistant/Default.rc2.res"
+"../Intermediate/Build/Win64/x64/UnrealEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"E:/WorkSpace/MG/Plugins/NodeGraphAssistant/Intermediate/Build/Win64/x64/UnrealEditor/Development/NodeGraphAssistant/NGAInputProcessor.cpp.obj"
+"E:/WorkSpace/MG/Plugins/NodeGraphAssistant/Intermediate/Build/Win64/x64/UnrealEditor/Development/NodeGraphAssistant/NodeGraphAssistantModule.cpp.obj"
+"E:/WorkSpace/MG/Plugins/NodeGraphAssistant/Intermediate/Build/Win64/x64/UnrealEditor/Development/NodeGraphAssistant/PerModuleInline.gen.cpp.obj"
+"../Intermediate/Build/Win64/x64/UnrealEditor/Development/Default.rc2.res"
 "../Binaries/ThirdParty/libsndfile/Win64/libsndfile-1.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/RenderCore/UnrealEditor-RenderCore.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/Core/UnrealEditor-Core.lib"
@@ -59,7 +61,7 @@
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/AnimationBlueprintEditor/UnrealEditor-AnimationBlueprintEditor.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/AudioEditor/UnrealEditor-AudioEditor.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/KismetWidgets/UnrealEditor-KismetWidgets.lib"
-"E:/WorkSpace/ProjectTemplate/Plugins/NodeGraphAssistant/Intermediate/Build/Win64/x64/UnrealEditor/Development/NGAGraphUtility/UnrealEditor-NGAGraphUtility.lib"
+"E:/WorkSpace/MG/Plugins/NodeGraphAssistant/Intermediate/Build/Win64/x64/UnrealEditor/Development/NGAGraphUtility/UnrealEditor-NGAGraphUtility.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/ApplicationCore/UnrealEditor-ApplicationCore.lib"
 "delayimp.lib"
 "wininet.lib"
@@ -88,6 +90,6 @@
 "imm32.lib"
 "uiautomationcore.lib"
 "DXGI.lib"
-/OUT:"E:/WorkSpace/ProjectTemplate/Plugins/NodeGraphAssistant/Binaries/Win64/UnrealEditor-NodeGraphAssistant.dll"
-/PDB:"E:/WorkSpace/ProjectTemplate/Plugins/NodeGraphAssistant/Binaries/Win64/UnrealEditor-NodeGraphAssistant.pdb"
+/OUT:"E:/WorkSpace/MG/Plugins/NodeGraphAssistant/Binaries/Win64/UnrealEditor-NodeGraphAssistant.dll"
+/PDB:"E:/WorkSpace/MG/Plugins/NodeGraphAssistant/Binaries/Win64/UnrealEditor-NodeGraphAssistant.pdb"
 /ignore:4078

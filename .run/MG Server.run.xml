@@ -305,7 +305,7 @@
       <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
       <option name="EXECUTABLE_PATH" value="$PROJECT_DIR$/../UE5_6Source/UnrealEngine-5.6/Engine/Binaries/Win64/UnrealEditor.exe" />
       <option name="MANDATORY_PROGRAM_PARAMETERS" value=" &quot;E:\WorkSpace\MG\MG.uproject&quot;" />
-      <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
+      <option name="CUSTOM_PROGRAM_PARAMETERS" value="-server -log" />
       <option name="WORKING_DIRECTORY" value="E:\WorkSpace\UE5_6Source\UnrealEngine-5.6" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="1" />

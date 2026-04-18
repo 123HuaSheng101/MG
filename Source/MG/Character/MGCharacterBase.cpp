@@ -2,6 +2,8 @@
 
 
 #include "MGCharacterBase.h"
+#include "MG/Core/Base/MGPlayerStateBase.h"
+
 
 
 AMGCharacterBase::AMGCharacterBase()
@@ -16,5 +18,25 @@ void AMGCharacterBase::BeginPlay()
 	
 }
 
+void AMGCharacterBase::PossessedBy(AController* NewController)
+{
+	Super::PossessedBy(NewController);
 
+	InitializeAbilityActorInfo();
+}
+
+void AMGCharacterBase::OnRep_PlayerState()
+{
+	Super::OnRep_PlayerState();
+
+	InitializeAbilityActorInfo();
+}
+
+void AMGCharacterBase::InitializeAbilityActorInfo()
+{
+	if (auto* MGPlayerState = GetPlayerState<AMGPlayerStateBase>())
+	{
+		MGPlayerState->InitializeAbilityActorInfo();
+	}
+}
 

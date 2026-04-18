@@ -1,12 +1,12 @@
-"E:/WorkSpace/ProjectTemplate/Plugins/NodeGraphAssistant/Intermediate/Build/Win64/x64/UnrealEditor/Development/NodeGraphAssistant/Module.NodeGraphAssistant.cpp"
-@"E:/WorkSpace/ProjectTemplate/Plugins/NodeGraphAssistant/Intermediate/Build/Win64/x64/UnrealEditor/Development/NodeGraphAssistant/NodeGraphAssistant.Shared.rsp"
-/FI"E:/WorkSpace/ProjectTemplate/Intermediate/Build/Win64/x64/ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
-/FI"E:/WorkSpace/ProjectTemplate/Plugins/NodeGraphAssistant/Intermediate/Build/Win64/x64/UnrealEditor/Development/NodeGraphAssistant/Definitions.NodeGraphAssistant.h"
-/Yu"E:/WorkSpace/ProjectTemplate/Intermediate/Build/Win64/x64/ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
-/Fp"E:/WorkSpace/ProjectTemplate/Intermediate/Build/Win64/x64/ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.pch"
-/Fo"E:/WorkSpace/ProjectTemplate/Plugins/NodeGraphAssistant/Intermediate/Build/Win64/x64/UnrealEditor/Development/NodeGraphAssistant/Module.NodeGraphAssistant.cpp.obj"
-/experimental:log "E:/WorkSpace/ProjectTemplate/Plugins/NodeGraphAssistant/Intermediate/Build/Win64/x64/UnrealEditor/Development/NodeGraphAssistant/Module.NodeGraphAssistant.cpp.sarif"
-/sourceDependencies "E:/WorkSpace/ProjectTemplate/Plugins/NodeGraphAssistant/Intermediate/Build/Win64/x64/UnrealEditor/Development/NodeGraphAssistant/Module.NodeGraphAssistant.cpp.dep.json"
+"E:/WorkSpace/MG/Plugins/NodeGraphAssistant/Intermediate/Build/Win64/x64/UnrealEditor/Development/NodeGraphAssistant/Module.NodeGraphAssistant.cpp"
+@"E:/WorkSpace/MG/Plugins/NodeGraphAssistant/Intermediate/Build/Win64/x64/UnrealEditor/Development/NodeGraphAssistant/NodeGraphAssistant.Shared.rsp"
+/FI"../Intermediate/Build/Win64/x64/UnrealEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
+/FI"E:/WorkSpace/MG/Plugins/NodeGraphAssistant/Intermediate/Build/Win64/x64/UnrealEditor/Development/NodeGraphAssistant/Definitions.NodeGraphAssistant.h"
+/Yu"../Intermediate/Build/Win64/x64/UnrealEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
+/Fp"../Intermediate/Build/Win64/x64/UnrealEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.pch"
+/Fo"E:/WorkSpace/MG/Plugins/NodeGraphAssistant/Intermediate/Build/Win64/x64/UnrealEditor/Development/NodeGraphAssistant/Module.NodeGraphAssistant.cpp.obj"
+/experimental:log "E:/WorkSpace/MG/Plugins/NodeGraphAssistant/Intermediate/Build/Win64/x64/UnrealEditor/Development/NodeGraphAssistant/Module.NodeGraphAssistant.cpp.sarif"
+/sourceDependencies "E:/WorkSpace/MG/Plugins/NodeGraphAssistant/Intermediate/Build/Win64/x64/UnrealEditor/Development/NodeGraphAssistant/Module.NodeGraphAssistant.cpp.dep.json"
 /d2ssa-cfg-question-
 /Zc:inline
 /nologo

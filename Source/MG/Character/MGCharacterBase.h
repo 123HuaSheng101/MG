@@ -6,17 +6,20 @@
 #include "GameFramework/Character.h"
 #include "MGCharacterBase.generated.h"
 
-UCLASS()
+class UGMGASComponentBase;
+UCLASS(Abstract)
 class MG_API AMGCharacterBase : public ACharacter
 {
 	GENERATED_BODY()
 
 public:
 	AMGCharacterBase();
-
+	virtual void PossessedBy(AController* NewController) override;
+	
 protected:
 	virtual void BeginPlay() override;
+	virtual void OnRep_PlayerState() override;
 
-	
-	
+private:
+	void InitializeAbilityActorInfo();
 };

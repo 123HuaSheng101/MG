@@ -9,12 +9,8 @@
 /**
  * 
  */
-UCLASS()
+UCLASS(Abstract)
 class MG_API UMGUserWidgetBase : public UUserWidget
 {
 	GENERATED_BODY()
-	
-	
-	
-	
 };
