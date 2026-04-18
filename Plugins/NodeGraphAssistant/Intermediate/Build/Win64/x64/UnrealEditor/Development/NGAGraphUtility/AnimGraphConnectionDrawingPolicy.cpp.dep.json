@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\workspace\\mg\\plugins\\nodegraphassistant\\source\\ngagraphutility\\private\\enginecppfiles\\animgraphconnectiondrawingpolicy.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\workspace\\ue5_6source\\unrealengine-5.6\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\workspace\\mg\\plugins\\nodegraphassistant\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ngagraphutility\\definitions.ngagraphutility.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

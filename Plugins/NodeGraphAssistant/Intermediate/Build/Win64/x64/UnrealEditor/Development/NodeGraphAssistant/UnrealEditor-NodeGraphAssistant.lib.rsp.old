@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-NodeGraphAssistant.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:/WorkSpace/ProjectTemplate/Intermediate/Build/Win64/x64/ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"E:/WorkSpace/ProjectTemplate/Plugins/NodeGraphAssistant/Intermediate/Build/Win64/x64/UnrealEditor/Development/NodeGraphAssistant/Module.NodeGraphAssistant.cpp.obj"
+"E:/WorkSpace/ProjectTemplate/Plugins/NodeGraphAssistant/Intermediate/Build/Win64/x64/UnrealEditor/Development/NodeGraphAssistant/Default.rc2.res"
+/OUT:"E:/WorkSpace/ProjectTemplate/Plugins/NodeGraphAssistant/Intermediate/Build/Win64/x64/UnrealEditor/Development/NodeGraphAssistant/UnrealEditor-NodeGraphAssistant.lib"

@@ -1,0 +1,8 @@
+{
+	"BuildId": "43139311",
+	"Modules": 
+	{
+		"NGAGraphUtility": "UnrealEditor-NGAGraphUtility-Win64-DebugGame.dll",
+		"NodeGraphAssistant": "UnrealEditor-NodeGraphAssistant-Win64-DebugGame.dll"
+	}
+}

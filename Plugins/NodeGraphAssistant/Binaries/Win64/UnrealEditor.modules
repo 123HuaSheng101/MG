@@ -1,0 +1,8 @@
+{
+	"BuildId": "c6ec4a61-019c-4195-8ab8-84c5c2b17c9a",
+	"Modules": 
+	{
+		"NGAGraphUtility": "UnrealEditor-NGAGraphUtility.dll",
+		"NodeGraphAssistant": "UnrealEditor-NodeGraphAssistant.dll"
+	}
+}

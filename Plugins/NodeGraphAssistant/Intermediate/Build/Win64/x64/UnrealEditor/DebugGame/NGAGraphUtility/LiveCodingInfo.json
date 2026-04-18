@@ -1,0 +1,25 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NGAGraphUtility.cpp.obj": [
+			"NGAGraphUtility.init.gen.cpp.obj",
+			"NodeGraphAssistantConfig.gen.cpp.obj",
+			"NodeHelper.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"NGAAnimGraphConnectionDrawingPolicy.cpp.obj",
+			"NGABlueprintConnectionDrawingPolicy.cpp.obj",
+			"NGAGraphConnectionDrawingPolicyCommon.cpp.obj",
+			"NGAMaterialGraphConnectionDrawingPolicy.cpp.obj",
+			"NGASoundCueConnectionDrawingPolicy.cpp.obj",
+			"AnimGraphConnectionDrawingPolicy.cpp.obj",
+			"DragConnection.cpp.obj",
+			"MaterialGraphConnectionDrawingPolicy.cpp.obj",
+			"SGraphNodeAnimTransition.cpp.obj",
+			"SoundCueGraphConnectionDrawingPolicy.cpp.obj",
+			"StateMachineConnectionDrawingPolicy.cpp.obj",
+			"NGAGraphPinConnectionFactory.cpp.obj",
+			"NGAGraphUtilityModule.cpp.obj",
+			"NodeHelper.cpp.obj"
+		]
+	}
+}

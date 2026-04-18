@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-NodeGraphAssistant-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:/WorkSpace/ProjectTemplate/Intermediate/Build/Win64/x64/ProjectEditor/DebugGame/UnrealEd/SharedPCH.UnrealEd.Project.NonOptimized.ValApi.ValExpApi.Cpp20.h.obj"
+"E:/WorkSpace/ProjectTemplate/Plugins/NodeGraphAssistant/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/NodeGraphAssistant/Module.NodeGraphAssistant.cpp.obj"
+"E:/WorkSpace/ProjectTemplate/Plugins/NodeGraphAssistant/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/NodeGraphAssistant/Default.rc2.res"
+/OUT:"E:/WorkSpace/ProjectTemplate/Plugins/NodeGraphAssistant/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/NodeGraphAssistant/UnrealEditor-NodeGraphAssistant-Win64-DebugGame.lib"
