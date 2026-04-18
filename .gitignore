@@ -1,0 +1,40 @@
+# Unreal Engine generated files
+/Binaries/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+
+# IDE settings
+/.vs/
+/.idea/
+/.vscode/
+
+# Visual Studio generated files
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.opensdf
+*.opendb
+*.VC.db
+*.VC.opendb
+
+# Rider / IntelliJ
+*.DotSettings.user
+
+# Build system artifacts
+*.xcodeproj
+*.xcworkspace
+*.pbxproj
+*.csproj
+
+# Logs and local temp files
+*.log
+*.tmp
+*.cache
+*.pidb
+
+# OS clutter
+.DS_Store
+Thumbs.db
