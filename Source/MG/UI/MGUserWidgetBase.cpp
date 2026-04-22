@@ -2,7 +2,12 @@
 
 
 #include "MGUserWidgetBase.h"
+#include "../GAS/Base/MGAttributeSetBase.h"
 
-
-
-
+void UMGUserWidgetBase::SetAttributeSet(UMGAttributeSetBase* InAttributeSet)
+{
+	if (InAttributeSet == nullptr)
+		return;
+	AttributeSet = InAttributeSet;
+	OnAttributeSetEvent(AttributeSet.Get());
+}

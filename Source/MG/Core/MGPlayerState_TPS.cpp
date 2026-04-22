@@ -17,3 +17,8 @@ AMGPlayerState_TPS::AMGPlayerState_TPS()
 	
 	HealthAS = CreateDefaultSubobject<UMGAttributeSet_Health>("HealthAS");
 }
+
+UMGAttributeSet_Health* AMGPlayerState_TPS::GetHealthAttributeSet() const
+{
+	return HealthAS.Get();
+}

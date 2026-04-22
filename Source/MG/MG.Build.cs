@@ -14,6 +14,7 @@ public class MG : ModuleRules
 			"CoreUObject",
 			"Engine",
 			"InputCore",
+			"UMG",
 			"EnhancedInput",
 			"GameplayTags",
 			"GameplayAbilities",

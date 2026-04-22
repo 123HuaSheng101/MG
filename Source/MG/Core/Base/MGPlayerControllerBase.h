@@ -7,18 +7,23 @@
 #include "MGPlayerControllerBase.generated.h"
 
 class UMGUserWidgetBase;
-/**
- * 
- */
+
 UCLASS()
 class MG_API AMGPlayerControllerBase : public APlayerController
 {
 	GENERATED_BODY()
-	
-	
+public:
+	virtual void OnRep_PlayerState() override;
+protected:
+	virtual void BeginPlay() override;
+
+	UPROPERTY(EditDefaultsOnly, Category = "UserInterface", meta = (DisplayName = "Overlay"))
+	TSubclassOf<UMGUserWidgetBase> OverLayerClass;
+
 	
 private:
-	//游戏主界面
+	void InitializeOverLayer();
+
 	UPROPERTY()
 	TObjectPtr<UMGUserWidgetBase> OverLayer;
 };

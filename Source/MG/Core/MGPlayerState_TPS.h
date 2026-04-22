@@ -16,7 +16,7 @@ class MG_API AMGPlayerState_TPS : public AMGPlayerStateBase
 	GENERATED_BODY()
 public:
 	AMGPlayerState_TPS();
-	
+	UMGAttributeSet_Health* GetHealthAttributeSet()const;
 private:
 	UPROPERTY()
 	TObjectPtr<UMGAttributeSet_Health> HealthAS;

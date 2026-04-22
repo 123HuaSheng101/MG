@@ -15,10 +15,10 @@ class MG_API AMGCharacterBase : public ACharacter
 public:
 	AMGCharacterBase();
 	virtual void PossessedBy(AController* NewController) override;
-	
-protected:
 	virtual void BeginPlay() override;
 	virtual void OnRep_PlayerState() override;
+protected:
+
 
 private:
 	void InitializeAbilityActorInfo();
