@@ -26,9 +26,9 @@ public:
 	UPROPERTY(VisibleAnywhere)
 	FGameplayAttributeData Damage;
 	UFUNCTION()
-	virtual void OnRep_Health(const FGameplayAttributeData &OldHealth);
+	void OnRep_Health(const FGameplayAttributeData &OldHealth);
 	UFUNCTION()
-	virtual void OnRep_MaxHealth(const FGameplayAttributeData &OldMaxHealth);
+	void OnRep_MaxHealth(const FGameplayAttributeData &OldMaxHealth);
 	virtual void PreAttributeChange(const FGameplayAttribute &Attribute, float &NewValue) override;
 	UPROPERTY(BlueprintAssignable)
 	FAttributeChangedEvent OnHealthChanged;
